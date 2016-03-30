@@ -1,0 +1,13 @@
+{
+    "name": "eshopino/api-helper",
+    "license": ["MIT"],
+    "authors": [
+        {
+            "name": "David Matejka",
+            "email": "matej21@matej21.cz"
+        }
+    ],
+    "autoload": {
+        "classmap": ["src/"]
+    }
+}
