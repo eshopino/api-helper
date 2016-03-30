@@ -29,7 +29,7 @@ class ItemStatusController implements IController
 			$item += ['product' => NULL, 'variant' => NULL];
 			$status = $this->itemManager->find($item['product'], $item['variant']);
 			if ($status === NULL || $status->getQuantity() === 0) {
-				continue;   
+				continue;
 			}
 			$result[] = [
 					'availability' => $status->getAvailability(),
