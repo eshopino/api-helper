@@ -7,6 +7,10 @@
             "email": "matej21@matej21.cz"
         }
     ],
+    "require-dev": {
+        "nette/tester": "^1.7",
+        "mockery/mockery": "^0.9.4"
+    },
     "autoload": {
         "classmap": ["src/"]
     }
